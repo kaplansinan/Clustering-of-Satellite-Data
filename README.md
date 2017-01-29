@@ -29,6 +29,7 @@ The clustering analysis is explained with related methods in **report.pdf**  und
 ## Tests
 
 To able to run the code by yourself, you need to have MATLAB. After installing the Matlab, All you need to do is as follows:
+
 1. Dowbload the repository
 2. Extract the files
 3. To see the difference of GMM and K-Means clustering approaches on the toy data (Mickey Mouse) run  "toy_ex.m" 
