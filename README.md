@@ -13,17 +13,21 @@ Anthropogenic CO2 emissions from fossil fuel combustion have large impacts on cl
 
 In order to combine the information from XCO2 anomalies and NO2 mean fields, two clustering methods based on unsupervised machine learning, are applied: k-means clustering and Gaussian Mixture Models (GMM) clustering.
 
+## Data 
+
+The data files are provided under **data** file. Each of the data sourse belongs to a different grid size specified in the paper. 
+
 ## Code 
 
-The implementation of clustering methods including Gaussian Mixture Models, K-Means and Expectation Maximization (for clustering and imputation) can be found under **code** file. MATLAB is used because of its flexibility and related libraries. 
+The implementation of clustering methods including Gaussian Mixture Models, K-Means and Expectation Maximization (for clustering and imputation) can be found under **src** file. MATLAB is used because of its flexibility and related libraries. 
 
 ## Graphical Results
 
-The results obtained from the culstering analysis can be found under **results** file. In this file we demonstrate impact of imputation on clustering analysis and  analysis number of clusters (k = 3, 4, 5, and 7). 
+The results obtained from the culstering analysis can be found under **figures** file. In this file we demonstrate impact of imputation on clustering analysis and  analysis number of clusters (k = 3, 4, 5, and 7). 
 
 ## Documentation
 
-The clustering analysis is explained with related methods in **report.pdf**  under **doc** file.
+The clustering analysis is explained with related methods in **Report.pdf**  under **doc** file.
 
 
 ## Tests
