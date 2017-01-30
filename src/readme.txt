@@ -2,6 +2,7 @@ Assignment for the ADAML course.
 Implemented by Denis Sedov, Sinan Kaplan, 2017.
 
 The current folder consists of the following files:
+report.pdf - the detailed explanation of the solution as a report.
 
 m-files:
 toy_ex.m - Application of k-means and GMM on toy example("Mickey Mouse").
@@ -14,6 +15,12 @@ dataStruct_1deg.mat - given dataset
 dataStruct_2deg.mat - given dataset
 dataStruct_05deg.mat - given dataset
 dataStruct_025deg.mat - given dataset
+
+figures in "figures" folder:
+EMImputation - results obtained from when the missing values are filled by Expectation Maximization
+k3 - results obtained from when the number clusters is 3
+k4 - results obtained from when the number clusters is 4
+k5 - results obtained from when the number clusters is 5
 
 additional folders:
 m_map1.4 - m_map toolbox
